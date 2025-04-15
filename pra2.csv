@@ -1,0 +1,6 @@
+"age","job","marital","education","housing.loan","car.loan","cons.price.idx","interest.rate.3months","nr.employed","grant.loan"
+25,"admin","single","secondary","yes","no",93.994,1.25,5191,"yes"
+30,"technician","married","tertiary","no","yes",92.843,1.5,5000,"no"
+35,"sales","divorced","secondary","yes","no",94.215,0.75,5100,"yes"
+40,"management","married","tertiary","no","yes",91.445,1,4800,"no"
+45,"blue-collar","single","primary","yes","no",95.678,1.75,5300,"yes"

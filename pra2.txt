@@ -1,0 +1,43 @@
+# Read the dataset
+op <- read.csv("pra2.csv", header = TRUE)
+
+# Extract columns
+age <- op$age
+job <- op$job
+marital <- op$marital      # Corrected spelling
+education <- op$education
+house <- op$`housing.loan` # Use backticks for special column names
+car <- op$`car.loan`
+cons <- op$cons.price.idx
+intr <- op$interest.rate.3months
+nr <- op$nr.employed
+gr <- op$`grant.loan`
+
+# Create a data frame
+df <- data.frame(
+  age = age, 
+  job = job, 
+  marital = marital, 
+  education = education, 
+  house = house, 
+  car = car, 
+  cons = cons, 
+  intr = intr, 
+  nr = nr, 
+  gr = gr
+)
+
+# Display summary and visualizations
+summary(df$age)
+
+# Boxplots
+boxplot(df$age, main = "Boxplot for Age", col = "lightblue")
+boxplot(df$cons, main = "Boxplot for Consumer Price Index", col = "lightgreen")
+boxplot(df$intr, main = "Boxplot for 3-Month Interest Rate", col = "lightcoral")
+
+# Histogram for age
+hist(df$age, col = "blue", border = "black", main = "Histogram of Age", xlab = "Age")
+
+# Pie chart for job distribution
+job_counts <- table(df$job)
+pie(job_counts, main = "Job Distribution", col = rainbow(length(job_counts)))
