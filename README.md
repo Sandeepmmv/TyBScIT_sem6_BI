@@ -27,3 +27,7 @@ b. Perform data visualization using PowerBI on any sales data.
   
 10. Create the cube with suitable dimension and fact tables based on ROLAP, MOLAP and 
 HOLAP model.
+
+###import module 
+pip install pandas numpy matplotlib seaborn
+
