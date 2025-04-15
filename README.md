@@ -29,5 +29,7 @@ b. Perform data visualization using PowerBI on any sales data.
 HOLAP model.
 
 ### import module <br/>
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+
 
