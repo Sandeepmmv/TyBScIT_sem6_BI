@@ -39,5 +39,5 @@ def analyze_csv(file_path):
 
 # Example usage
 if __name__ == "__main__":
-    file_path = "sample_data.csv"  # Ensure the correct CSV file path
+    file_path = "pra7.csv"  # Ensure the correct CSV file path
     analyze_csv(file_path)
