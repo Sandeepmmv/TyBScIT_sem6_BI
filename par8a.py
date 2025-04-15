@@ -23,4 +23,4 @@ def visualize_sales(file_path):
         plt.show()
 
 if __name__ == "__main__":
-    visualize_sales("sales_data.csv")
+    visualize_sales("pra8.csv")
